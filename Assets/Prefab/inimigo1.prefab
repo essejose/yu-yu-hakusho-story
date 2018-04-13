@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61941984656051188}
   - component: {fileID: 114028774154465968}
   - component: {fileID: 50612184244546414}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: inimigo1
   m_TagString: inimigo
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1652995253301700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.36, y: 1.45, z: 0}
+  m_LocalPosition: {x: 1.6375117, y: -0.62412655, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -117,14 +117,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc131699c20b41f4ab8f2e62b1ac2de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 5
-  velocidade: 0.3
-  distanciaAtaque: 1
+  vida: 12
+  velocidade: 0.64
+  distanciaAtaque: 0.3
   coin: {fileID: 1021525765860682, guid: fafdb9cde9d02424fbf5220f259eb06d, type: 2}
   animacaoMorte: {fileID: 1806789524416466, guid: b5f3c8e825d5b7540b0e8dd76f83365b,
     type: 2}
   player: {fileID: 0}
-  andarDistancia: 2
+  andarDistancia: 1
 --- !u!212 &212031827982336898
 SpriteRenderer:
   m_ObjectHideFlags: 1

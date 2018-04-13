@@ -9,46 +9,53 @@ public class ArmaScript : MonoBehaviour {
     public GameObject sensorRotacao;
     public GameObject player;
 
-    public static   bool canFire = true;
+
+    public static bool canFire = true;
+    public static int magia;
 
     Animator animator;
    
         void Start()
         {
             animator = player.GetComponent<Animator>();
-        }
+            magia = GameController.gameController.magias;
+            UpdateMagiaUI();
+
+         }
         // Update is called once per frame
         void Update () {
 
-        if (canFire)
-        {
-            if (Input.GetButtonUp("Fire1"))
-            {
-                canFire = false;
-                StartCoroutine(socos());
 
-            }
-            if (Input.GetButtonUp("Fire2"))
-            {
-                canFire = false;
-                StartCoroutine(fire());
+                if (canFire)
+                {
+                    if (Input.GetButtonUp("Fire1"))
+                    {
+                        canFire = false;
+                        StartCoroutine(socos());
 
-            }
-        }
+                    }
+                    if (Input.GetButtonUp("Fire2") && magia > 0)
+                    {
+                        canFire = false;
+                        StartCoroutine(fire());
+                        magia--;
+                        UpdateMagiaUI();
+                    }
+                }
        
-        if (Input.GetAxisRaw("Horizontal") > 0.0f)
-        {
+                if (Input.GetAxisRaw("Horizontal") > 0.0f)
+                {
 
-            sensorRotacao.transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
+                    sensorRotacao.transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
+                }
+                else if (Input.GetAxisRaw("Horizontal") < 0.0f)
+                {
+
+                    sensorRotacao.transform.eulerAngles = new Vector3(0.0f, 180.0f, 0.0f);
+
+                }
+
         }
-        else if (Input.GetAxisRaw("Horizontal") < 0.0f)
-        {
-
-            sensorRotacao.transform.eulerAngles = new Vector3(0.0f, 180.0f, 0.0f);
-
-        }
-
-    }
     IEnumerator socos()
     {
 
@@ -86,5 +93,9 @@ public class ArmaScript : MonoBehaviour {
         canFire = true;
     }
 
-     
+
+    public void UpdateMagiaUI()
+    {
+        FindObjectOfType<UIController>().UpdateMagiaUI(magia);
+    }
 }

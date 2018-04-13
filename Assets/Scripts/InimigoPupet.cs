@@ -55,7 +55,7 @@ public class InimigoPupet : InimigoBase {
      private void FixedUpdate()
             {
 
-        print(alvoDistancia);
+    
                 if(andar )
                 {
           

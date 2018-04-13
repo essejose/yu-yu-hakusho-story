@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4682475228682114}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SensorEsquerda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4971998336973714}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SensorDireito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4160896942104080}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bracoArma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,9 +69,9 @@ GameObject:
   - component: {fileID: 50001703230063640}
   - component: {fileID: 61809884008498976}
   - component: {fileID: 114923512128482466}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hero
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4947280384467752}
   - component: {fileID: 114607033309503840}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4646879828245460}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647194174858994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.687, z: 0}
+  m_LocalPosition: {x: -0.206, y: -0.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4160896942104080}
@@ -222,7 +222,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010949671, y: 0}
+  m_Offset: {x: -0.008610286, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -233,7 +233,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16173255, y: 0.48}
+  m_Size: {x: 0.213199, y: 0.48}
   m_EdgeRadius: 0
 --- !u!95 &95955200900674464
 Animator:
@@ -267,6 +267,7 @@ MonoBehaviour:
   projetil2: {fileID: 1192966324213748, guid: d74a3607a1fad6d4bb8589976bb1981b, type: 2}
   sensorRotacao: {fileID: 1615377828664642}
   player: {fileID: 1647194174858994}
+  magia: 0
 --- !u!114 &114923512128482466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -284,6 +285,7 @@ MonoBehaviour:
   chaoVerificador: {fileID: 4646879828245460}
   chaoVerificadorEsqueda: {fileID: 4682475228682114}
   chaoVerificadorDireita: {fileID: 4971998336973714}
+  vidaMaxima: 5
 --- !u!212 &212114226216475100
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -317,7 +319,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f10e50fc121981149b0e714513dfa2c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
