@@ -63,8 +63,19 @@ public class InimigoBase : MonoBehaviour {
 
     IEnumerator levaDanoCoRoutine()
     {
+        print(flipXRight);
+
+
+      
         sprite.color = Color.red;
         yield return new WaitForSeconds(0.1f);
         sprite.color = Color.white;
+       
+        yield return new WaitForSeconds(4f);
+        rb.velocity = new Vector2(0, 0);
+        alvoDistancia = 0f;
+        yield return new WaitForSeconds(4f);
+
+
     }
 }

@@ -109,7 +109,7 @@ public class PlayerScript : MonoBehaviour {
         ArmaScript.canFire = false;
         rb.velocity = new Vector2(0.0f, impulso);
 
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(.6f);
         StopCoroutine(puloForce());
         ArmaScript.canFire = true;
 

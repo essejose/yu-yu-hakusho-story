@@ -37,6 +37,7 @@ public class ArmaScript : MonoBehaviour {
                     if (Input.GetButtonUp("Fire2") && magia > 0)
                     {
                         canFire = false;
+
                         StartCoroutine(fire());
                         magia--;
                         UpdateMagiaUI();
@@ -64,7 +65,7 @@ public class ArmaScript : MonoBehaviour {
         PlayerScript.canMove = false;
 
         animator.SetBool("isSoco", true);
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(.2f);
         Instantiate(projetil2, transform.position, transform.rotation);
       
        

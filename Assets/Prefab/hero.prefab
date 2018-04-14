@@ -267,7 +267,6 @@ MonoBehaviour:
   projetil2: {fileID: 1192966324213748, guid: d74a3607a1fad6d4bb8589976bb1981b, type: 2}
   sensorRotacao: {fileID: 1615377828664642}
   player: {fileID: 1647194174858994}
-  magia: 0
 --- !u!114 &114923512128482466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -280,12 +279,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 5
-  velocidade: 1
-  impulso: 3
+  velocidade: 1.4
+  impulso: 3.7
   chaoVerificador: {fileID: 4646879828245460}
   chaoVerificadorEsqueda: {fileID: 4682475228682114}
   chaoVerificadorDireita: {fileID: 4971998336973714}
   vidaMaxima: 5
+  danoTempo: 1
 --- !u!212 &212114226216475100
 SpriteRenderer:
   m_ObjectHideFlags: 1
