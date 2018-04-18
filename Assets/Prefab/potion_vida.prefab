@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 58322014265632632}
   - component: {fileID: 95002881870366008}
   - component: {fileID: 114382817504505440}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: potion_vida
   m_TagString: Untagged
   m_Icon: {fileID: 0}

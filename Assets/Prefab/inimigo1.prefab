@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 12
-  velocidade: 0.64
+  velocidade: 0.6
   distanciaAtaque: 0.3
   coin: {fileID: 1021525765860682, guid: fafdb9cde9d02424fbf5220f259eb06d, type: 2}
   animacaoMorte: {fileID: 1806789524416466, guid: b5f3c8e825d5b7540b0e8dd76f83365b,
