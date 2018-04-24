@@ -30,7 +30,7 @@ public class ProjetilScript : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D c)
     {
        
-        if (c.gameObject.tag == "inimigo")
+        if (c.gameObject.tag == "inimigo" || c.gameObject.tag == "boss")
         {
 
             c.gameObject.GetComponent<InimigoBase>().levaDano(dano);

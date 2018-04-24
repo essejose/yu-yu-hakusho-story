@@ -6,39 +6,30 @@ public class InimigoPupet : InimigoBase {
 
     public float andarDistancia;
 
-    private bool andar;
-    private bool atacar = false;
+    // Use this for initialization
+    void Start() {
 
+    }
 
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	protected override void  Update () {
+    // Update is called once per frame
+    protected override void Update() {
+        if (morreu) return;
 
         base.Update();
 
 
-        anim.SetBool("run", andar);
- 
-
-
-        if (Mathf.Abs(alvoDistancia) < andarDistancia)
-        {
-            andar = true;
+        if (vida <= 0) {
+            anim.SetBool("run", false);
+            anim.SetBool("isAttack", false);
+            anim.Play("bossGolemDeath");
+            morreu = true;
+        }
+        else {
+            anim.SetBool("run", Mathf.Abs(alvoDistancia) < andarDistancia);
+            anim.SetBool("isAttack", Mathf.Abs(alvoDistancia) < distanciaAtaque);
         }
 
-        if (Mathf.Abs(alvoDistancia) < distanciaAtaque)
-        {
 
-            atacar = true;
-            andar = false;
-        }
-        
-        
         /* inimgo que voa ? haha ficou legal
             if ( Mathf.Abs( alvoDistancia) < distanciaAtaque)
             {
@@ -50,33 +41,27 @@ public class InimigoPupet : InimigoBase {
                 anim.SetBool("run", false);
             }
             */
-        }
+    }
 
-     private void FixedUpdate()
-            {
+    private void FixedUpdate() {
 
-    
-                if(andar )
-                {
-          
-                    if(alvoDistancia < 0)
-                    {
-                        rb.velocity = new Vector2(velocidade, rb.velocity.y);
-                        if (!flipXRight)
-                        {
-                            Flip();
-                        }
-                    }
-                    else
-                    {
-                        rb.velocity = new Vector2(-velocidade, rb.velocity.y);
-                        if (flipXRight)
-                        {
-                            Flip();
-                        }
-                    }
+
+        if (Mathf.Abs(alvoDistancia) < andarDistancia && Mathf.Abs(alvoDistancia) >= distanciaAtaque) {
+
+            if (alvoDistancia < 0) {
+                rb.velocity = new Vector2(velocidade, rb.velocity.y);
+                if (!flipXRight) {
+                    Flip();
                 }
             }
-
-        
+            else {
+                rb.velocity = new Vector2(-velocidade, rb.velocity.y);
+                if (flipXRight) {
+                    Flip();
+                }
+            }
+        }
     }
+
+
+}

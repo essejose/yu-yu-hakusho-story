@@ -7,6 +7,7 @@ TagManager:
   - fundo
   - inimigo
   - coin
+  - boss
   layers:
   - Default
   - TransparentFX

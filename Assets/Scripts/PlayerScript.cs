@@ -183,7 +183,7 @@ public class PlayerScript : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D c)
     {
         print(c.gameObject.tag);
-        if(c.CompareTag("inimigo") && !tomandoDano)
+        if((c.CompareTag("inimigo") || c.CompareTag("boss")) && !tomandoDano)
         {
             StartCoroutine(TomandoDano());
         }

@@ -1,0 +1,2023 @@
+fileFormatVersion: 2
+guid: 704e24c6f4d3b60439706121b63f7479
+timeCreated: 1524500237
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HieiSprite_0
+    21300002: HieiSprite_1
+    21300004: HieiSprite_2
+    21300006: HieiSprite_3
+    21300008: HieiSprite_4
+    21300010: HieiSprite_5
+    21300012: HieiSprite_6
+    21300014: HieiSprite_7
+    21300016: HieiSprite_8
+    21300018: HieiSprite_9
+    21300020: HieiSprite_10
+    21300022: HieiSprite_11
+    21300024: HieiSprite_12
+    21300026: HieiSprite_13
+    21300028: HieiSprite_14
+    21300030: HieiSprite_15
+    21300032: HieiSprite_16
+    21300034: HieiSprite_17
+    21300036: HieiSprite_18
+    21300038: HieiSprite_19
+    21300040: HieiSprite_20
+    21300042: HieiSprite_21
+    21300044: HieiSprite_22
+    21300046: HieiSprite_23
+    21300048: HieiSprite_24
+    21300050: HieiSprite_25
+    21300052: HieiSprite_26
+    21300054: HieiSprite_27
+    21300056: HieiSprite_28
+    21300058: HieiSprite_29
+    21300060: HieiSprite_30
+    21300062: HieiSprite_31
+    21300064: HieiSprite_32
+    21300066: HieiSprite_33
+    21300068: HieiSprite_34
+    21300070: HieiSprite_35
+    21300072: HieiSprite_36
+    21300074: HieiSprite_37
+    21300076: HieiSprite_38
+    21300078: HieiSprite_39
+    21300080: HieiSprite_40
+    21300082: HieiSprite_41
+    21300084: HieiSprite_42
+    21300086: HieiSprite_43
+    21300088: HieiSprite_44
+    21300090: HieiSprite_45
+    21300092: HieiSprite_46
+    21300094: HieiSprite_47
+    21300096: HieiSprite_48
+    21300098: HieiSprite_49
+    21300100: HieiSprite_50
+    21300102: HieiSprite_51
+    21300104: HieiSprite_52
+    21300106: HieiSprite_53
+    21300108: HieiSprite_54
+    21300110: HieiSprite_55
+    21300112: HieiSprite_56
+    21300114: HieiSprite_57
+    21300116: HieiSprite_58
+    21300118: HieiSprite_59
+    21300120: HieiSprite_60
+    21300122: HieiSprite_61
+    21300124: HieiSprite_62
+    21300126: HieiSprite_63
+    21300128: HieiSprite_64
+    21300130: HieiSprite_65
+    21300132: HieiSprite_66
+    21300134: HieiSprite_67
+    21300136: HieiSprite_68
+    21300138: HieiSprite_69
+    21300140: HieiSprite_70
+    21300142: HieiSprite_71
+    21300144: HieiSprite_72
+    21300146: HieiSprite_73
+    21300148: HieiSprite_74
+    21300150: HieiSprite_75
+    21300152: HieiSprite_76
+    21300154: HieiSprite_77
+    21300156: HieiSprite_78
+    21300158: HieiSprite_79
+    21300160: HieiSprite_80
+    21300162: HieiSprite_81
+    21300164: HieiSprite_82
+    21300166: HieiSprite_83
+    21300168: HieiSprite_84
+    21300170: HieiSprite_85
+    21300172: HieiSprite_86
+    21300174: HieiSprite_87
+    21300176: HieiSprite_88
+    21300178: HieiSprite_89
+    21300180: HieiSprite_90
+    21300182: HieiSprite_91
+    21300184: HieiSprite_92
+    21300186: HieiSprite_93
+    21300188: HieiSprite_94
+    21300190: HieiSprite_95
+    21300192: HieiSprite_96
+    21300194: HieiSprite_97
+    21300196: HieiSprite_98
+    21300198: HieiSprite_99
+    21300200: HieiSprite_100
+    21300202: HieiSprite_101
+    21300204: HieiSprite_102
+    21300206: HieiSprite_103
+    21300208: HieiSprite_104
+    21300210: HieiSprite_105
+    21300212: HieiSprite_106
+    21300214: HieiSprite_107
+    21300216: HieiSprite_108
+    21300218: HieiSprite_109
+    21300220: HieiSprite_110
+    21300222: HieiSprite_111
+    21300224: HieiSprite_112
+    21300226: HieiSprite_113
+    21300228: HieiSprite_114
+    21300230: HieiSprite_115
+    21300232: HieiSprite_116
+    21300234: HieiSprite_117
+    21300236: HieiSprite_118
+    21300238: HieiSprite_119
+    21300240: HieiSprite_120
+    21300242: HieiSprite_121
+    21300244: HieiSprite_122
+    21300246: HieiSprite_123
+    21300248: HieiSprite_124
+    21300250: HieiSprite_125
+    21300252: HieiSprite_126
+    21300254: HieiSprite_127
+    21300256: HieiSprite_128
+    21300258: HieiSprite_129
+    21300260: HieiSprite_130
+    21300262: HieiSprite_131
+    21300264: HieiSprite_132
+    21300266: HieiSprite_133
+    21300268: HieiSprite_134
+    21300270: HieiSprite_135
+    21300272: HieiSprite_136
+    21300274: HieiSprite_137
+    21300276: HieiSprite_138
+    21300278: HieiSprite_139
+    21300280: HieiSprite_140
+    21300282: HieiSprite_141
+    21300284: HieiSprite_142
+    21300286: HieiSprite_143
+    21300288: HieiSprite_144
+    21300290: HieiSprite_145
+    21300292: HieiSprite_146
+    21300294: HieiSprite_147
+    21300296: HieiSprite_148
+    21300298: HieiSprite_149
+    21300300: HieiSprite_150
+    21300302: HieiSprite_151
+    21300304: HieiSprite_152
+    21300306: HieiSprite_153
+    21300308: HieiSprite_154
+    21300310: HieiSprite_155
+    21300312: HieiSprite_156
+    21300314: HieiSprite_157
+    21300316: HieiSprite_158
+    21300318: HieiSprite_159
+    21300320: HieiSprite_160
+    21300322: HieiSprite_161
+    21300324: HieiSprite_162
+    21300326: HieiSprite_163
+    21300328: HieiSprite_164
+    21300330: HieiSprite_165
+    21300332: HieiSprite_166
+    21300334: HieiSprite_167
+    21300336: HieiSprite_168
+    21300338: HieiSprite_169
+    21300340: HieiSprite_170
+    21300342: HieiSprite_171
+    21300344: HieiSprite_172
+    21300346: HieiSprite_173
+    21300348: HieiSprite_174
+    21300350: HieiSprite_175
+    21300352: HieiSprite_176
+    21300354: HieiSprite_177
+    21300356: HieiSprite_178
+    21300358: HieiSprite_179
+    21300360: HieiSprite_180
+    21300362: HieiSprite_181
+    21300364: HieiSprite_182
+    21300366: HieiSprite_183
+    21300368: HieiSprite_184
+    21300370: HieiSprite_185
+    21300372: HieiSprite_186
+    21300374: HieiSprite_187
+    21300376: HieiSprite_188
+    21300378: HieiSprite_189
+    21300380: HieiSprite_190
+    21300382: HieiSprite_191
+    21300384: HieiSprite_192
+    21300386: HieiSprite_193
+    21300388: HieiSprite_194
+    21300390: HieiSprite_195
+    21300392: HieiSprite_196
+    21300394: HieiSprite_197
+    21300396: HieiSprite_198
+    21300398: HieiSprite_199
+    21300400: HieiSprite_200
+    21300402: HieiSprite_201
+    21300404: HieiSprite_202
+    21300406: HieiSprite_203
+    21300408: HieiSprite_204
+    21300410: HieiSprite_205
+    21300412: HieiSprite_206
+    21300414: HieiSprite_207
+    21300416: HieiSprite_208
+    21300418: HieiSprite_209
+    21300420: HieiSprite_210
+    21300422: HieiSprite_211
+    21300424: HieiSprite_212
+    21300426: HieiSprite_213
+    21300428: HieiSprite_214
+    21300430: HieiSprite_215
+    21300432: HieiSprite_216
+    21300434: HieiSprite_217
+    21300436: HieiSprite_218
+    21300438: HieiSprite_219
+    21300440: HieiSprite_220
+    21300442: HieiSprite_221
+    21300444: HieiSprite_222
+    21300446: HieiSprite_223
+    21300448: HieiSprite_224
+    21300450: HieiSprite_225
+    21300452: HieiSprite_226
+    21300454: HieiSprite_227
+    21300456: HieiSprite_228
+    21300458: HieiSprite_229
+    21300460: HieiSprite_230
+    21300462: HieiSprite_231
+    21300464: HieiSprite_232
+    21300466: HieiSprite_233
+    21300468: HieiSprite_234
+    21300470: HieiSprite_235
+    21300472: HieiSprite_236
+    21300474: HieiSprite_237
+    21300476: HieiSprite_238
+    21300478: HieiSprite_239
+    21300480: HieiSprite_240
+    21300482: HieiSprite_241
+    21300484: HieiSprite_242
+    21300486: HieiSprite_243
+    21300488: HieiSprite_244
+    21300490: HieiSprite_245
+    21300492: HieiSprite_246
+    21300494: HieiSprite_247
+    21300496: HieiSprite_248
+    21300498: HieiSprite_249
+    21300500: HieiSprite_250
+    21300502: HieiSprite_251
+    21300504: HieiSprite_252
+    21300506: HieiSprite_253
+    21300508: HieiSprite_254
+    21300510: HieiSprite_255
+    21300512: HieiSprite_256
+    21300514: HieiSprite_257
+    21300516: HieiSprite_258
+    21300518: HieiSprite_259
+    21300520: HieiSprite_260
+    21300522: HieiSprite_261
+    21300524: HieiSprite_262
+    21300526: HieiSprite_263
+    21300528: HieiSprite_264
+    21300530: HieiSprite_265
+    21300532: HieiSprite_266
+    21300534: HieiSprite_267
+    21300536: HieiSprite_268
+    21300538: HieiSprite_269
+    21300540: HieiSprite_270
+    21300542: HieiSprite_271
+    21300544: HieiSprite_272
+    21300546: HieiSprite_273
+    21300548: HieiSprite_274
+    21300550: HieiSprite_275
+    21300552: HieiSprite_276
+    21300554: HieiSprite_277
+    21300556: HieiSprite_278
+    21300558: HieiSprite_279
+    21300560: HieiSprite_280
+    21300562: HieiSprite_281
+    21300564: HieiSprite_282
+    21300566: HieiSprite_283
+    21300568: HieiSprite_284
+    21300570: HieiSprite_285
+    21300572: HieiSprite_286
+    21300574: HieiSprite_287
+    21300576: HieiSprite_288
+    21300578: HieiSprite_289
+    21300580: HieiSprite_290
+    21300582: HieiSprite_291
+    21300584: HieiSprite_292
+    21300586: HieiSprite_293
+    21300588: HieiSprite_294
+    21300590: HieiSprite_295
+    21300592: HieiSprite_296
+    21300594: HieiSprite_297
+    21300596: HieiSprite_298
+    21300598: HieiSprite_299
+    21300600: HieiSprite_300
+    21300602: HieiSprite_301
+    21300604: HieiSprite_302
+    21300606: HieiSprite_303
+    21300608: HieiSprite_304
+    21300610: HieiSprite_305
+    21300612: HieiSprite_306
+    21300614: HieiSprite_307
+    21300616: HieiSprite_308
+    21300618: HieiSprite_309
+    21300620: HieiSprite_310
+    21300622: HieiSprite_311
+    21300624: HieiSprite_312
+    21300626: HieiSprite_313
+    21300628: HieiSprite_314
+    21300630: HieiSprite_315
+    21300632: HieiSprite_316
+    21300634: HieiSprite_317
+    21300636: HieiSprite_318
+    21300638: HieiSprite_319
+    21300640: HieiSprite_320
+    21300642: HieiSprite_321
+    21300644: HieiSprite_322
+    21300646: HieiSprite_323
+    21300648: HieiSprite_324
+    21300650: HieiSprite_325
+    21300652: HieiSprite_326
+    21300654: HieiSprite_327
+    21300656: HieiSprite_328
+    21300658: HieiSprite_329
+    21300660: HieiSprite_330
+    21300662: HieiSprite_331
+    21300664: HieiSprite_332
+    21300666: HieiSprite_333
+    21300668: HieiSprite_334
+    21300670: HieiSprite_335
+    21300672: HieiSprite_336
+    21300674: HieiSprite_337
+    21300676: HieiSprite_338
+    21300678: HieiSprite_339
+    21300680: HieiSprite_340
+    21300682: HieiSprite_341
+    21300684: HieiSprite_342
+    21300686: HieiSprite_343
+    21300688: HieiSprite_344
+    21300690: HieiSprite_345
+    21300692: HieiSprite_346
+    21300694: HieiSprite_347
+    21300696: HieiSprite_348
+    21300698: HieiSprite_349
+    21300700: HieiSprite_350
+    21300702: HieiSprite_351
+    21300704: HieiSprite_352
+    21300706: HieiSprite_353
+    21300708: HieiSprite_354
+    21300710: HieiSprite_355
+    21300712: HieiSprite_356
+    21300714: HieiSprite_357
+    21300716: HieiSprite_358
+    21300718: HieiSprite_359
+    21300720: HieiSprite_360
+    21300722: HieiSprite_361
+    21300724: HieiSprite_362
+    21300726: HieiSprite_363
+    21300728: HieiSprite_364
+    21300730: HieiSprite_365
+    21300732: HieiSprite_366
+    21300734: HieiSprite_367
+    21300736: HieiSprite_368
+    21300738: HieiSprite_369
+    21300740: HieiSprite_370
+    21300742: HieiSprite_371
+    21300744: HieiSprite_372
+    21300746: HieiSprite_373
+    21300748: HieiSprite_374
+    21300750: HieiSprite_375
+    21300752: HieiSprite_376
+    21300754: HieiSprite_377
+    21300756: HieiSprite_378
+    21300758: HieiSprite_379
+    21300760: HieiSprite_380
+    21300762: HieiSprite_381
+    21300764: HieiSprite_382
+    21300766: HieiSprite_383
+    21300768: HieiSprite_384
+    21300770: HieiSprite_385
+    21300772: HieiSprite_386
+    21300774: HieiSprite_387
+    21300776: HieiSprite_388
+    21300778: HieiSprite_389
+    21300780: HieiSprite_390
+    21300782: HieiSprite_391
+    21300784: HieiSprite_392
+    21300786: HieiSprite_393
+    21300788: HieiSprite_394
+    21300790: HieiSprite_395
+    21300792: HieiSprite_396
+    21300794: HieiSprite_397
+    21300796: HieiSprite_398
+    21300798: HieiSprite_399
+    21300800: HieiSprite_400
+    21300802: HieiSprite_401
+    21300804: HieiSprite_402
+    21300806: HieiSprite_403
+    21300808: HieiSprite_404
+    21300810: HieiSprite_405
+    21300812: HieiSprite_406
+    21300814: HieiSprite_407
+    21300816: HieiSprite_408
+    21300818: HieiSprite_409
+    21300820: HieiSprite_410
+    21300822: HieiSprite_411
+    21300824: HieiSprite_412
+    21300826: HieiSprite_413
+    21300828: HieiSprite_414
+    21300830: HieiSprite_415
+    21300832: HieiSprite_416
+    21300834: HieiSprite_417
+    21300836: HieiSprite_418
+    21300838: HieiSprite_419
+    21300840: HieiSprite_420
+    21300842: HieiSprite_421
+    21300844: HieiSprite_422
+    21300846: HieiSprite_423
+    21300848: HieiSprite_424
+    21300850: HieiSprite_425
+    21300852: HieiSprite_426
+    21300854: HieiSprite_427
+    21300856: HieiSprite_428
+    21300858: HieiSprite_429
+    21300860: HieiSprite_430
+    21300862: HieiSprite_431
+    21300864: HieiSprite_432
+    21300866: HieiSprite_433
+    21300868: HieiSprite_434
+    21300870: HieiSprite_435
+    21300872: HieiSprite_436
+    21300874: HieiSprite_437
+    21300876: HieiSprite_438
+    21300878: HieiSprite_439
+    21300880: HieiSprite_440
+    21300882: HieiSprite_441
+    21300884: HieiSprite_442
+    21300886: HieiSprite_443
+    21300888: HieiSprite_444
+    21300890: HieiSprite_445
+    21300892: HieiSprite_446
+    21300894: HieiSprite_447
+    21300896: HieiSprite_448
+    21300898: HieiSprite_449
+    21300900: HieiSprite_450
+    21300902: HieiSprite_451
+    21300904: HieiSprite_452
+    21300906: HieiSprite_453
+    21300908: HieiSprite_454
+    21300910: HieiSprite_455
+    21300912: HieiSprite_456
+    21300914: HieiSprite_457
+    21300916: HieiSprite_458
+    21300918: HieiSprite_459
+    21300920: HieiSprite_460
+    21300922: HieiSprite_461
+    21300924: HieiSprite_462
+    21300926: HieiSprite_463
+    21300928: HieiSprite_464
+    21300930: HieiSprite_465
+    21300932: HieiSprite_466
+    21300934: HieiSprite_467
+    21300936: HieiSprite_468
+    21300938: HieiSprite_469
+    21300940: HieiSprite_470
+    21300942: HieiSprite_471
+    21300944: HieiSprite_472
+    21300946: HieiSprite_473
+    21300948: HieiSprite_474
+    21300950: HieiSprite_475
+    21300952: HieiSprite_476
+    21300954: HieiSprite_477
+    21300956: HieiSprite_478
+    21300958: HieiSprite_479
+    21300960: HieiSprite_480
+    21300962: HieiSprite_481
+    21300964: HieiSprite_482
+    21300966: HieiSprite_483
+    21300968: HieiSprite_484
+    21300970: HieiSprite_485
+    21300972: HieiSprite_486
+    21300974: HieiSprite_487
+    21300976: HieiSprite_488
+    21300978: HieiSprite_489
+    21300980: HieiSprite_490
+    21300982: HieiSprite_491
+    21300984: HieiSprite_492
+    21300986: HieiSprite_493
+    21300988: HieiSprite_494
+    21300990: HieiSprite_495
+    21300992: HieiSprite_496
+    21300994: HieiSprite_497
+    21300996: HieiSprite_498
+    21300998: HieiSprite_499
+    21301000: HieiSprite_500
+    21301002: HieiSprite_501
+    21301004: HieiSprite_502
+    21301006: HieiSprite_503
+    21301008: HieiSprite_504
+    21301010: HieiSprite_505
+    21301012: HieiSprite_506
+    21301014: HieiSprite_507
+    21301016: HieiSprite_508
+    21301018: HieiSprite_509
+    21301020: HieiSprite_510
+    21301022: HieiSprite_511
+    21301024: HieiSprite_512
+    21301026: HieiSprite_513
+    21301028: HieiSprite_514
+    21301030: HieiSprite_515
+    21301032: HieiSprite_516
+    21301034: HieiSprite_517
+    21301036: HieiSprite_518
+    21301038: HieiSprite_519
+    21301040: HieiSprite_520
+    21301042: HieiSprite_521
+    21301044: HieiSprite_522
+    21301046: HieiSprite_523
+    21301048: HieiSprite_524
+    21301050: HieiSprite_525
+    21301052: HieiSprite_526
+    21301054: HieiSprite_527
+    21301056: HieiSprite_528
+    21301058: HieiSprite_529
+    21301060: HieiSprite_530
+    21301062: HieiSprite_531
+    21301064: HieiSprite_532
+    21301066: HieiSprite_533
+    21301068: HieiSprite_534
+    21301070: HieiSprite_535
+    21301072: HieiSprite_536
+    21301074: HieiSprite_537
+    21301076: HieiSprite_538
+    21301078: HieiSprite_539
+    21301080: HieiSprite_540
+    21301082: HieiSprite_541
+    21301084: HieiSprite_542
+    21301086: HieiSprite_543
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HieiSprite_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 740
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 728
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 717
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 731
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 717
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 717
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 717
+        width: 99
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_7
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 717
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_8
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 717
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_9
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 717
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 633
+        width: 45
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 633
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 633
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 633
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_14
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 633
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 633
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 633
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_17
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 633
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_18
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 633
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_19
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 633
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_20
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 646
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_21
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 633
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 633
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 563
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 563
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 565
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_26
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 563
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_27
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 563
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 563
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_29
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 563
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_30
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 563
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_31
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 577
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_32
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 563
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_33
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 563
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_34
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 563
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_35
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 563
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 481
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 481
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_38
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 481
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_39
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 483
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_40
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 481
+        width: 24
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_41
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 481
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_42
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 481
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 492
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_44
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 481
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_45
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 481
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_46
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 481
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_47
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 403
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_48
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 403
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_49
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 444
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 403
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_51
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 458
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_52
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 403
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_53
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 459
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_54
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 403
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_55
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 458
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_56
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 403
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_57
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 403
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_58
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 403
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 403
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_60
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 439
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_61
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 422
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_62
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 426
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_63
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 416
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 328
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 328
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_66
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 347
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_67
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 347
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_68
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 342
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_69
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 362
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_70
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 341
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_71
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 354
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_72
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 349
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_73
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 338
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_74
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 340
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_75
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 353
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_76
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 353
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_77
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 328
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_78
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 328
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_79
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 349
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_80
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 338
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_81
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 339
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 252
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_83
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 252
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_84
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 252
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_85
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 252
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_86
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 252
+        width: 76
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_87
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 252
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_89
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 252
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_90
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 252
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_91
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 252
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_92
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 252
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_93
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 168
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_94
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 168
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_95
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 168
+        width: 34
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_96
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 168
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HieiSprite_97
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 32
+        width: 139
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
