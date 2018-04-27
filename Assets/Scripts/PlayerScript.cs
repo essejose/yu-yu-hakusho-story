@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerScript : MonoBehaviour {
     Animator animator;
@@ -38,7 +39,7 @@ public class PlayerScript : MonoBehaviour {
     SpriteRenderer spriteRenderer;
 
     ArmaScript arma;
-
+   
     // Use this for initialization
     void Start () {
 
@@ -47,7 +48,8 @@ public class PlayerScript : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>(); 
         gameManager = GameController.gameController;
 
-
+        Debug.Log("Device type : " + SystemInfo.deviceType);
+ 
         setPlayerStatus();
         vida = vidaMaxima;
         UpdateVidaUI();
@@ -66,7 +68,7 @@ public class PlayerScript : MonoBehaviour {
     {
 
             
-            float mover_x = Input.GetAxisRaw("Horizontal") * velocidade * Time.deltaTime;
+            float mover_x = CrossPlatformInputManager.GetAxisRaw("Horizontal") * velocidade * Time.deltaTime;
             transform.Translate(mover_x, 0.0f, 0.0f);
 
          
@@ -81,7 +83,7 @@ public class PlayerScript : MonoBehaviour {
                 spriteRenderer.flipX = true;
 
             }
-            animator.SetFloat("run", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
+            animator.SetFloat("run", Mathf.Abs(CrossPlatformInputManager.GetAxisRaw("Horizontal")));
 
             estanoChao = Physics2D.Linecast(transform.position, chaoVerificadorEsqueda.position, 1 << LayerMask.NameToLayer("Piso")) || Physics2D.Linecast(transform.position, chaoVerificadorDireita.position, 1 << LayerMask.NameToLayer("Piso"));
 
@@ -95,8 +97,7 @@ public class PlayerScript : MonoBehaviour {
 
     void pulo()
     {
-
-        if (Input.GetButtonDown("Jump"))
+        if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0.92 && estanoChao)
         {
 
             StartCoroutine(puloForce());
@@ -106,12 +107,14 @@ public class PlayerScript : MonoBehaviour {
 
     IEnumerator puloForce()
     {
+      
         ArmaScript.canFire = false;
         rb.velocity = new Vector2(0.0f, impulso);
 
-        yield return new WaitForSeconds(.6f);
+        yield return new WaitForSeconds(.9f);
         StopCoroutine(puloForce());
         ArmaScript.canFire = true;
+        yield return new WaitForSeconds(1f);
 
     }
 

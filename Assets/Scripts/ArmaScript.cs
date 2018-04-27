@@ -2,38 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI;
+using UnityStandardAssets.CrossPlatformInput;
 public class ArmaScript : MonoBehaviour {
  
     public GameObject projetil;
     public GameObject projetil2;
     public GameObject sensorRotacao;
     public GameObject player;
-
-
+    public GameObject botao1;
+    public GameObject botao2;
     public static bool canFire = true;
     public static int magia;
 
-    Animator animator;
+ 
+     Animator animator;
    
         void Start()
         {
             animator = player.GetComponent<Animator>();
             magia = GameController.gameController.magias;
             UpdateMagiaUI();
-
-         }
+        botao1.GetComponent<Button>().onClick.AddListener(tiro1);
+        botao2.GetComponent<Button>().onClick.AddListener(tiro2);
+    }
         // Update is called once per frame
         void Update () {
 
 
                 if (canFire)
                 {
-                    if (Input.GetButtonUp("Fire1"))
-                    {
-                        canFire = false;
-                        StartCoroutine(socos());
-
-                    }
+                  
                     if (Input.GetButtonUp("Fire2") && magia > 0)
                     {
                         canFire = false;
@@ -44,12 +43,12 @@ public class ArmaScript : MonoBehaviour {
                     }
                 }
        
-                if (Input.GetAxisRaw("Horizontal") > 0.0f)
+                if (CrossPlatformInputManager.GetAxisRaw("Horizontal") > 0.0f)
                 {
 
                     sensorRotacao.transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
                 }
-                else if (Input.GetAxisRaw("Horizontal") < 0.0f)
+                else if (CrossPlatformInputManager.GetAxisRaw("Horizontal") < 0.0f)
                 {
 
                     sensorRotacao.transform.eulerAngles = new Vector3(0.0f, 180.0f, 0.0f);
@@ -94,7 +93,30 @@ public class ArmaScript : MonoBehaviour {
         canFire = true;
     }
 
+    public void tiro1()
+    {
+        if (canFire)
+        {
+            canFire = false;
+            StartCoroutine(socos());
+        }
+            
+     }
+    public void tiro2()
+    {
+        if (canFire && magia > 0)
+        { 
+                
+                canFire = false;
 
+                StartCoroutine(fire());
+                magia--;
+                UpdateMagiaUI();
+             
+           
+        }
+
+    }
     public void UpdateMagiaUI()
     {
         FindObjectOfType<UIController>().UpdateMagiaUI(magia);
