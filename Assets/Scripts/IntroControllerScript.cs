@@ -22,7 +22,7 @@ public class IntroControllerScript : MonoBehaviour {
         // Screen transition
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)
             || Input.touchCount > 0) {
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("PlayerSelection");
         }
 
         if (GameController.gameController == null) return;

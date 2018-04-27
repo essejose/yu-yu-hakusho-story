@@ -3,7 +3,11 @@ guid: 80088e81f93835c408cfc979c5b6c04b
 timeCreated: 1524791327
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: playerSelect_0
+    21300002: playerSelect_1
+    21300004: playerSelect_2
+    21300006: playerSelect_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -98,7 +102,63 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: playerSelect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 146
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: playerSelect_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 152
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: playerSelect_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 150
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: playerSelect_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 0
+        width: 150
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
