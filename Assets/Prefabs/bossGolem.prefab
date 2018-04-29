@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 61176421942202442}
   m_Layer: 10
   m_Name: bossGolem
-  m_TagString: boss
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1256861060274132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31, y: -0.5, z: 0}
+  m_LocalPosition: {x: -0.98849964, y: -0.26044422, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.05, y: -0.02}
+  m_Offset: {x: 0.023904651, y: -0.019999996}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -87,7 +87,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.4}
+  m_Size: {x: 0.32118624, y: 0.4}
   m_EdgeRadius: 0
 --- !u!95 &95654026816641886
 Animator:
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 10
   velocidade: 1
-  distanciaAtaque: 0.65
+  distanciaAtaque: 0.3
   morreu: 0
   coin: {fileID: 0}
   animacaoMorte: {fileID: 0}

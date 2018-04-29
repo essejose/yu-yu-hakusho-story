@@ -23,6 +23,7 @@ public class ArmaScript : MonoBehaviour {
             animator = player.GetComponent<Animator>();
             magia = GameController.gameController.magias;
             UpdateMagiaUI();
+        canFire = true;
         botao1.GetComponent<Button>().onClick.AddListener(tiro1);
         botao2.GetComponent<Button>().onClick.AddListener(tiro2);
     }

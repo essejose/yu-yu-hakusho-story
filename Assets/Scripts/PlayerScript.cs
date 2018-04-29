@@ -24,7 +24,7 @@ public class PlayerScript : MonoBehaviour {
     private bool tomandoDano = false;
 
 
-
+    public GameObject painel;
     public static bool canMove = true;
 
 
@@ -33,7 +33,7 @@ public class PlayerScript : MonoBehaviour {
     bool estanoChao;
     bool intro = true;
     float intervalo = 0.1f;
-
+    bool canJump = true;
     Rigidbody2D rb;
     GameController gameManager;
     SpriteRenderer spriteRenderer;
@@ -53,7 +53,9 @@ public class PlayerScript : MonoBehaviour {
         setPlayerStatus();
         vida = vidaMaxima;
         UpdateVidaUI();
-
+        morto = false;
+        canMove = true;
+       
     }
 	
 	// Update is called once per frame
@@ -61,7 +63,7 @@ public class PlayerScript : MonoBehaviour {
 
             if(canMove)
             mover();
-         
+
     }
 
     void mover()
@@ -97,11 +99,14 @@ public class PlayerScript : MonoBehaviour {
 
     void pulo()
     {
-        if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0.92 && estanoChao)
-        {
 
+       
+        if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0.92 && estanoChao && canJump)
+        {
+            canJump = false;
             StartCoroutine(puloForce());
         }
+        
 
     }
 
@@ -114,6 +119,7 @@ public class PlayerScript : MonoBehaviour {
         yield return new WaitForSeconds(.9f);
         StopCoroutine(puloForce());
         ArmaScript.canFire = true;
+        canJump = true;
         yield return new WaitForSeconds(1f);
 
     }
@@ -127,10 +133,16 @@ public class PlayerScript : MonoBehaviour {
         if(vida <= 0)
         {
             morto = true;
-            /* TODO: fazer ele morrendo*/
-
+            /* TODO: fazer ele morrendo*/ 
             canMove = false;
-            Invoke("RecarregarScene", 2f);
+
+
+            if (morto)
+            {
+
+                animator.SetBool("death", morto); 
+                Invoke("RecarregarScene", 2f);
+            }
         }
         else
         {
@@ -147,7 +159,7 @@ public class PlayerScript : MonoBehaviour {
         }
     }
 
-    void RecarregarScene()
+    public void RecarregarScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
@@ -195,17 +207,25 @@ public class PlayerScript : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D c)
     {
+        print(c.gameObject.tag);
         if (c.gameObject.CompareTag("inimigo") && !tomandoDano)
         {
             StartCoroutine(TomandoDano());
         }
         else if (c.gameObject.CompareTag("coin"))
         {
-
-            Destroy(c.gameObject);
+            c.gameObject.GetComponent<AudioSource>().Play();
+          
             gameManager.coins += 1;
             UpdateCoinsUI();
+            Destroy(c.gameObject,0.1f);
         }
+         if (c.gameObject.tag == "darkcoin")
+        {
+            Destroy(c.gameObject); 
+            painel.SetActive(true);
+        }
+
     }
 
 

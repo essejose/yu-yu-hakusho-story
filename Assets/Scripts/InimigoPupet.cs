@@ -21,12 +21,12 @@ public class InimigoPupet : InimigoBase {
         if (vida <= 0) {
             anim.SetBool("run", false);
             anim.SetBool("isAttack", false);
-            anim.Play("bossGolemDeath");
+            anim.Play("bossGolemDeath"); 
             morreu = true;
         }
         else {
             anim.SetBool("run", Mathf.Abs(alvoDistancia) < andarDistancia);
-            anim.SetBool("isAttack", Mathf.Abs(alvoDistancia) < distanciaAtaque);
+           anim.SetBool("isAttack", Mathf.Abs(alvoDistancia) < distanciaAtaque);
         }
 
 

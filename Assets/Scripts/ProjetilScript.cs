@@ -15,9 +15,10 @@ public class ProjetilScript : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        AudioSource audio = GetComponent<AudioSource>();
         Destroy(gameObject, tempoDeVida);
 
-
+        audio.Play();
     }
     // Update is called once per frame
     void Update()
